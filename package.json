@@ -1,5 +1,16 @@
 {
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix Pratical_3/file-upload run dev",
+    "dev:file-upload": "npm --prefix Pratical_3/file-upload run dev",
+    "dev:my-app": "npm --prefix my-app run dev",
+    "build:file-upload": "npm --prefix Pratical_3/file-upload run build",
+    "build:my-app": "npm --prefix my-app run build"
+  },
   "dependencies": {
+    "axios": "^1.15.2",
+    "jwt-decode": "^4.0.0",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.6.0"
   }
 }
